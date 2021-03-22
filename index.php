@@ -83,13 +83,25 @@
     ?>
 <!-----------------------------TABS CONTENIDOS----------------------------->
     <?php
-    include_once './sections/index-sections/tab-information.php';
-    ?>
+        include_once './sections/index-sections/tab-information.php';
+        ?>
+        <div class="text-center">
+            <div class="data-teacher">
+                <p class="decorators mb-1">Instructor</p>
+                <h5>Docente con años de experiencia impartiendo clases y trabajando en el campo de la Oleohidráulica.</h5>
+            </div>
+        </div>
+    </div><!--fin container-->
 <!-----------------------------INSTRUCTOR----------------------------->
+    <div class="container-fluid instructor2">
+
     <?php
     include_once './sections/index-sections/instructor.php';
     ?>
+
+    </div>
 <!-----------------------------PRICING----------------------------->
+    <div class="container">
     <?php
     include_once './sections/index-sections/princing.php';
     ?>
