@@ -184,6 +184,7 @@ body {
   background-image: linear-gradient(90deg, rgba(30, 87, 153, 1) 0%, rgba(101, 140, 186, 0.6) 100%), url("./img/page-img/img-header.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   clip-path: polygon(100% 0, 100% 100%, 0 80%, 0 0);
   color: $color-light;
   .main-nav {
@@ -354,7 +355,29 @@ main {
   }
 }
 // ──────────INSTRUCTOR SECTION───────────────────────────────────────────────────────────
+.bg-instructor{
+  background: linear-gradient(110deg, #1e5799 0%, #658cba 40%,#fff 40%);
+}
+.teacher-section {
+    .row .data-teacher {
+      p {
+        margin-bottom: 0;
+      }
+      h5 {
+        color: $titles;
+      }
+    }
+    .teacher-items {
+      ul {
+        list-style: circle;
+      }
+    }
+  }
+  /* .instructor2{
+  background: linear-gradient(110deg, #1e5799 0%, #658cba 43%,#fff 43%);
+  }
   .teacher-section {
+    padding-top: 3rem;
     .row .data-teacher {
       p {
         margin-bottom: 0;
@@ -366,9 +389,9 @@ main {
     .teacher-works {
       .teacher-img-container {
         .img-teacher {
-          width: 350px;
+          // width: 350px;
           height: 350px;
-          border-radius: 50%;
+          // border-radius: 50%;
           object-fit: cover;
         }
       }
@@ -377,8 +400,7 @@ main {
           list-style: circle;
         }
       }
-    }
-  }
+    } */
 // ──────────PRICING SECTION───────────────────────────────────────────────────────────
   .pricing-container {
 

@@ -102,19 +102,14 @@
     include_once './sections/index-sections/nosotros.php';
     ?>
 <!-----------------------------TABS CONTENIDOS----------------------------->
-
-        <?php
-        include_once './sections/index-sections/tab-information.php';
-        ?>
-    </div>
+    <?php
+    include_once './sections/index-sections/tab-information.php';
+    ?>
+    </div><!-- End Container -->
 <!-----------------------------INSTRUCTOR----------------------------->
-    <div class="container-fluid">
-
     <?php
     include_once './sections/index-sections/instructor.php';
     ?>
-
-    </div>
 <!-----------------------------PRICING----------------------------->
     <div class="container">
     <?php
