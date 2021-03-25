@@ -69,6 +69,7 @@ html, body{
   margin: 0;
 }
 :focus{outline: none;}
+
 .h-80{
   height: calc( 80% - 86px );
 }
@@ -588,84 +589,83 @@ main {
 
   // ──────────CONTACT SECTION───────────────────────────────────────────────────────────
 
-  .contact-section {
-    z-index: 5;
-    color: $titles;
-    .bx-shadow {
-    box-shadow: 0px 0px 10px 3px rgba(119,129,139,0.4);
-    border-radius: $radius;
-    }
-  
-    .write-us {
-      background: white;
-      h5 {
-        color: #1E5799;
+  .skew-contact-bg {
+    background: linear-gradient(10deg, #1e5799 0%, #658cba 58%,#fff 40%);;
+    margin-top: 6rem;
+    padding-bottom: 10rem;
+    .contact-section {
+      z-index: 5;
+      color: $titles;
+      width: 80%;
+      .bx-shadow {
+      box-shadow: 0px 0px 10px 3px rgba(119,129,139,0.4);
+      border-radius: $radius;
       }
-  
-      input[type="text"], input[type="email"], textarea {
-        color: $color-dark;
-        width: 100%;
-        box-sizing: border-box;
-        letter-spacing: 1px;
-      }
-  
-      .input-effect {
-        border: 0;
-        border-bottom: 1px solid $color-off;
-          ~ {
-            .focus-border {
-              position: absolute;
-              bottom: 0;
-              left: 0;
-              width: 0;
-              height: 2px;
-              background-color: $color-primary-hover;
+    
+      .write-us {
+        background: white;
+        h5 {
+          color: #1E5799;
+        }
+    
+        input[type="text"], input[type="email"], textarea {
+          color: $color-dark;
+          width: 100%;
+          box-sizing: border-box;
+          letter-spacing: 1px;
+        }
+    
+        .input-effect {
+          border: 0;
+          border-bottom: 1px solid $color-off;
+            ~ {
+              .focus-border {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                height: 2px;
+                background-color: $color-primary-hover;
+                transition: .4s;
+              }
+            }
+            &:focus ~ .focus-border {
+              width: 100%;
               transition: .4s;
             }
+        }
+        textarea#text-content {
+          resize: none;
+          // transform: translateY(2px);
+        }
+        .form-control{
+          padding: 0;
+          &:focus{
+            box-shadow: none !important;
           }
-          &:focus ~ .focus-border {
-            width: 100%;
-            transition: .4s;
-          }
-      }
-      textarea#text-content {
-        resize: none;
-        // transform: translateY(2px);
-      }
-      .form-control{
-        padding: 0;
-        &:focus{
-          box-shadow: none !important;
+        }
+  
+        label {
+          color: $info;
         }
       }
-
-      label {
-        color: $info;
-      }
-    }
-  
-    .info-contact {
-      background-image: linear-gradient(90deg, rgba(30, 87, 153, 0.7) 0%, rgba(101, 140, 186, 0.6) 100%), url("./img/page-img/img-contact.jpg");
-      background-size: cover;
-      background-position: center;
-  
-      h5 {
-        color: $color-light;
-      }
-  
-      p {
-        color: $color-light;
+    
+      .info-contact {
+        background-image: linear-gradient(90deg, rgba(30, 87, 153, 0.7) 0%, rgba(101, 140, 186, 0.6) 100%), url("./img/page-img/img-contact.jpg");
+        background-size: cover;
+        background-position: center;
+    
+        h5 {
+          color: $color-light;
+        }
+    
+        p {
+          color: $color-light;
+        }
       }
     }
   }
-}
-// SKEW-PRE-FOOTER
-
-.skew-contact {
-  width: 100%;
-  height: 65%;
-  clip-path: polygon(0 0, 100% 40%, 100% 100%, 0 100%);
-  background: $light-blue-horizontal;
+  
 }
 
 // ──────────FOOTER SECTION───────────────────────────────────────────────────────────
