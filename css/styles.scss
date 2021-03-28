@@ -357,9 +357,10 @@ main {
 }
 // ──────────INSTRUCTOR SECTION───────────────────────────────────────────────────────────
 .bg-instructor{
-  background: linear-gradient(110deg, #1e5799 0%, #658cba 40%,#fff 40%);
-}
+  background: linear-gradient(110deg, #1e5799 0%, #658cba 100%);
+} 
 .teacher-section {
+  color: $color-light;
     .row .data-teacher {
       p {
         margin-bottom: 0;
@@ -374,34 +375,6 @@ main {
       }
     }
   }
-  /* .instructor2{
-  background: linear-gradient(110deg, #1e5799 0%, #658cba 43%,#fff 43%);
-  }
-  .teacher-section {
-    padding-top: 3rem;
-    .row .data-teacher {
-      p {
-        margin-bottom: 0;
-      }
-      h5 {
-        color: $titles;
-      }
-    }
-    .teacher-works {
-      .teacher-img-container {
-        .img-teacher {
-          // width: 350px;
-          height: 350px;
-          // border-radius: 50%;
-          object-fit: cover;
-        }
-      }
-      .teacher-items {
-        ul {
-          list-style: circle;
-        }
-      }
-    } */
 // ──────────PRICING SECTION───────────────────────────────────────────────────────────
   .pricing-container {
 
