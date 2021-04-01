@@ -5,17 +5,10 @@
                 <h5 class="mb-5">Envíanos un mensaje</h5>
                 <form class="form-line">
                     <div class="row mb-3 gy-2">
-                        <div class="col-md-6 ">
+                        <div class="col-md-12">
                             <div class="position-relative">
                                 <label for="fullname" class="form-label">Nombre Completo</label>
                                 <input type="text" class="input-effect" id="fullname" name="fullname">
-                                <span class="focus-border"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="position-relative">
-                                <label for="phone" class="form-label">Télefono</label>
-                                <input type="text" class="input-effect" id="phone" name="phone">
                                 <span class="focus-border"></span>
                             </div>
                         </div>
