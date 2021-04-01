@@ -14,22 +14,22 @@ document.onreadystatechange = () => {
         {
             title: 'Polaris',
             date: '22/03/2013',
-            description: 'Este es uno de los trabajos posta, pero todavia no tengo la descripcion ni la de los demas, mi viejo iba a conseguir la data.'
+            description: 'Trabajos en dique SPI. Reparación del cilindro principal de la grúa de cargamento (centro de cubierta).'
         },
         {
             title: 'Rubimar',
             date: '12/10/2004',
-            description: 'Barco Rubimar'
+            description: 'Cambio de la totalidad de flexibles y conectores de grúa de cargamento en navegación franca.'
         },
         {
             title: 'San Julian',
             date: '06/11/2009',
-            description: 'Barco San Julian'
+            description: 'Desmonte, recorrido y armado con puesta  punto de top bracing (amortiguadores del motor principal).'
         },
         {
             title: 'San Matias',
             date: '08/04/2012',
-            description: 'Barco San Matias'
+            description: 'Recorrido de bloques hidráulicos de cabrestante por falta de potencia (navegación franca).'
         }
     ]
 

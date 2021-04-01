@@ -13,7 +13,7 @@
             <h3>Polaris</h3>
             <span class="work-date">22/03/2013</span>
             <hr>
-            <p class="work-description m-0">Este es uno de los trabajos posta, pero todavia no tengo la descripcion ni la de los demas, mi viejo iba a conseguir la data.</p>
+            <p class="work-description m-0">Trabajos en dique SPI. Reparación del cilindro principal de la grúa de cargamento (centro de cubierta).</p>
         </div>
     </div>
 
