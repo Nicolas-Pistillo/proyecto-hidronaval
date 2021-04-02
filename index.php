@@ -8,10 +8,10 @@
     clear
     </span>
 
-    <div class="container lightbox-data">
+    <div class="container lightbox-data animate__animated">
         <div class="lightbox-info p-4">
             <h3>Polaris</h3>
-            <span class="work-date">22/03/2013</span>
+            <span class="work-date">Enero - 2013</span>
             <hr>
             <p class="work-description m-0">Trabajos en dique SPI. Reparación del cilindro principal de la grúa de cargamento (centro de cubierta).</p>
         </div>
