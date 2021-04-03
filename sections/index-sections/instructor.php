@@ -13,7 +13,7 @@
                 </div>
                 <div class="teacher-items col-sm-12 col-lg-7 my-4 text-center text-lg-start">
                     <h3 class="fs-2">Dario Omar Pistillo</h3>
-                    <ul class="text-center text-lg-start p-0">
+                    <ul class="text-start text-md-center text-lg-start p-0">
                         <li>Profesor durante 25 años en el instituto SECONARA</li>
                         <li>Especialista en instalaciones eléctricas y domóticas.</li>
                         <li>Experiencia técnica profesional in situ en el diseño, </li>
