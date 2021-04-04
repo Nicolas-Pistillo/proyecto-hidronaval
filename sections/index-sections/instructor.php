@@ -1,10 +1,12 @@
-<div id="instructor" class="text-center">
-    <div class="data-teacher">
-        <p class="decorators mb-1">Instructor</p>
-        <h5>Docente con años de experiencia impartiendo clases y trabajando en el campo de la Oleohidráulica.</h5>
+<div class="container">
+    <div id="instructor" class="text-center">
+        <div class="data-teacher">
+            <p class="decorators mb-1">Instructor</p>
+            <h5>Docente con años de experiencia impartiendo clases y trabajando en el campo de la Oleohidráulica.</h5>
+        </div>
     </div>
 </div>
-<div class="container-fluid bg-instructor mt-5">
+<div class="container-fluid p-0 bg-instructor mt-5">
     <div class="container">
         <div  class="teacher-section pt-5">
             <div class="row justify-content-center align-items-center">       
