@@ -1,6 +1,6 @@
-<div class="testimony-container container">
+<div class="testimony-container">
     <div class="row text-center justify-content-center">
-        <div class="testimony-intro col-sm-12 col-lg-6 text-success">
+        <div class="testimony-intro col-12 text-success">
             <span class="decorators">Testimonios</span>
             <h5>No sólo alumnos, sino también otros docentes y profesionales corroboran y certifican el profesionalismo</h5>
         </div>

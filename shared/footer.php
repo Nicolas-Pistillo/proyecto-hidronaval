@@ -3,6 +3,14 @@
         <div class="row justify-content-around py-5 mx-0">
             <div class="col-12 col-md-12 col-lg-3 text-center text-lg-start pb-5 pb-lg-0">
                 <img class="mb-2" src="./css/img/img-logo-light.svg" alt="" height="64">
+                <ul class="list-unstyled text-small mt-4">
+                    <li>
+                        <a href="tel:+123456789" class="text-reset text-decoration-none">+123456789</a>
+                    </li>
+                    <li>
+                        <a href="mailto:hidronaval@gmail.com?Subject=From%20info%20contact" class="text-reset text-decoration-none">hidronaval@gmail.com</a>
+                    </li>
+                </ul>
             </div>
             <div class="col-6 col-md-3 col-lg-2 text-center text-lg-start">
                 <h5 class="mb-3">Nosotros</h5>
@@ -37,9 +45,17 @@
             </div>
         </div>
     </div>
-    <div class="sub-footer container-fluid row text-center py-3 m-0">
-        <small class="small">Desarrollado por Lorem Ipsum, Lorem Ipsum y Lorem Ipsum-</small>
-        <small class="small">Copyright © 2021 Hidronaval - Todos los derechos  reservados</small>
+    <div class="sub-footer container-fluid  text-center py-4 m-0">
+        <div class="container row align-items-center justify-content-between m-auto p-0">
+            <div class="col-12 col-sm-6 tex-center text-sm-start">
+                <small class="small">Copyright © 2021 Hidronaval - Todos los derechos  reservados</small>
+            </div>
+            <div class="col-12 col-sm-6 tex-center text-sm-end">
+                <small class="small">
+                Desarrollado por Lorem Ipsum, Lorem Ipsum y Lorem Ipsum.
+                </small>
+            </div>
+        </div>
     </div>
 </footer>
 

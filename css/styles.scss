@@ -33,7 +33,7 @@ $radius: 8px;
       display: block;
       height: 5px;
       transform: skew(-40deg);
-      background: #5A7CA4;
+      background: #002C60;
   }
 }
 
@@ -284,6 +284,10 @@ main {
         font-size: 34px;
       }
   
+      .text-muted{
+        color: $color-primary !important;
+      }
+
       h4 {
         font-size: 24px;
       }
@@ -357,7 +361,7 @@ main {
 }
 // ──────────INSTRUCTOR SECTION───────────────────────────────────────────────────────────
 .bg-instructor{
-  background: linear-gradient(110deg, #1e5799 0%, #658cba 100%);
+  background: linear-gradient(90deg, rgb(0, 109, 175) 0%, rgba(0, 123, 151, 0.93) 100%, rgba(0,170,175,0.28) 100%), url('./img/page-img/pattern.jpg');
   margin-bottom: 6rem;
 } 
 .teacher-section {
@@ -389,12 +393,20 @@ main {
       min-width: 18.75rem;
       border: none;
       border-radius: $radius;
-      box-shadow: 0 4px 14px rgba(119, 129, 139, 0.12);        
-      
+      box-shadow: 0 4px 14px rgba(119, 129, 139, 0.12);
+      transition: all .5s ease-in-out;   
+      &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 4px 14px rgba(119, 129, 139, 0.4);
+      }
       //* Pricing Card Special
       &--recommended{
         box-shadow: 0 4px 14px rgba(119, 129, 139, 0.4)!important;
+        transition: all .5s ease-in-out;
         @extend .pricing-card;
+        &:hover{
+          transform: scale(1.05);
+        }
         .pricing-card-header{
           @extend .pricing-card-header;
           opacity: 1!important;
@@ -513,7 +525,7 @@ main {
           background-color: #FE6600;
           opacity: .5;
           transition: .3s;
-          &:hover,
+          c,
           &:focus {
             opacity: 1;
           }
@@ -570,7 +582,6 @@ main {
     .contact-section {
       z-index: 5;
       color: $titles;
-      width: 80%;
       .bx-shadow {
       box-shadow: 0px 0px 10px 3px rgba(119,129,139,0.4);
       border-radius: $radius;
@@ -667,7 +678,7 @@ footer {
     &:focus{
       color: $color-light;
       border-color: $color-primary;
-      box-shadow: 0 0 0 .25rem rgba(217, 75, 75, 0.25) !important;
+      box-shadow: none !important;
     }
   }
   button{
