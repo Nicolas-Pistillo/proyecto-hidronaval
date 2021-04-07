@@ -25,7 +25,7 @@
             <img src="css\img\img-cards-collection\material-didactico-card.svg" alt="instructor-img">
             <div class="card-body">
                 <h5 class="card-title">Material didáctico</h5>
-                <p class="card-text">Multiples ejercicios y prácticas. También se podran descargar.</p>
+                <p class="card-text">Multiples ejercicios y prácticas. Disponibles en classroom.</p>
             </div>
         </div>
     </div>
