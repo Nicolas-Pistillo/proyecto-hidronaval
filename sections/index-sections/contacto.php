@@ -4,7 +4,7 @@
             <div class="bx-shadow d-flex flex-wrap overflow-hidden">
                 <div class="col-12 col-md-12 col-lg-12 col-xl-7 p-5 write-us">
                     <h5 class="mb-5">Envíanos un mensaje</h5>
-                    <form class="form-line">
+                    <form action="mail\mail_validations.php" method="POST" class="form-line">
                         <div class="row mb-3 gy-2">
                             <div class="col-md-12">
                                 <div class="position-relative">
