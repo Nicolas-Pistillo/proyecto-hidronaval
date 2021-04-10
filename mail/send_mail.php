@@ -2,17 +2,13 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
 
-require '..\vendor\autoload.php';
-
-//Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
+require '../vendor/autoload.php';
 
 function sendHidroMail($name,$email,$subject,$message) {
     try {
-        //Server settings
-        $mail = new PHPMailer;
+        //Instantiation and passing `true` enables exceptions
+        $mail = new PHPMailer(true);
         $mail->isSMTP();
         //$mail->SMTPDebug = 2; To debug
         $mail->SMTPAuth = true;
@@ -21,29 +17,29 @@ function sendHidroMail($name,$email,$subject,$message) {
         $mail->Port = 587;
         $mail->Username = 'contacto.hidronaval@gmail.com';
         $mail->Password = 'hidroneumatica';
-        $mail->setFrom('contacto.hidronaval@gmail.com', 'Hidronaval-Contacto');
-        $mail->addAddress($email, $name);
+        /*$mail->setFrom('contacto.hidronaval@gmail.com', 'Hidronaval-Contacto');
+        $mail->addAddress($email, $name);*/
+        $mail->CharSet = 'utf-8';
         $mail->isHTML();
 
         $msg = '';
     
-        if ($mail->addReplyTo($email, $name)) {
-            $mail->Subject = "RE:" . $subject;
-            $mail->Body = <<<EOT
-            <br>¡Hola,$name!</br> Muchas gracias por contactarte con nosotros, tu consulta sera procesada y contestada en breve, recuerda que puedes solicitar material gratuito acerca de Oleohidraulica dentro de nuestra web. 
+        $mail->From = $email;
+        $mail->FromName = $name;
+        $mail->addAddress($mail->Username,'Hidronaval-Contacto');
+        $mail->Subject = $subject;
+        $mail->Body = $message . " <p>Correo del usuario: $email</p>";
+        $mail->AltBody = $message . " Correo del usuario: $email";
 
-            Equipo de hidronaval
-            
-            Tu mensaje: $message
-EOT;
-            if (!$mail->send()) {
-                $msg = 'Ha ocurrido un error al enviar el correo, por favor intente de nuevo mas tarde.';
+        if (!$mail->send()) {
+            $msg = "<div class='alert alert-danger mb-3' role='alert'>
+                        Lo sentimos, ha ocurrido un error en el proceso de envio de su correo
+                    </div>";
             } else {
-                $msg = 'Correo enviado con éxito, muchas gracias por su interes.';
+                $msg = "<div class='alert alert-success mb-3' role='alert'>
+                            ¡Se ha enviado su mensaje exitosamente!
+                        </div>";
             }
-        } else {
-            $msg = 'El correo no ha podido enviarse';
-        }
 
         return $msg;
 
