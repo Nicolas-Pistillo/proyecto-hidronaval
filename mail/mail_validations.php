@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $name = $_POST['fullname'];
 $email = $_POST['mail'];
@@ -25,7 +26,7 @@ if (isset($email)) {
 
 if (isset($subject)) {
     if (empty($subject)) {
-        $errors.= 'El campo asunto no puede estar vacío'.'<br>';
+        $errors.= 'El campo asunto no puede estar vacío <br>';
     }
 } else {
     $errors.= 'Se debe especificar un campo con el asunto de su consulta'.'<br>';
@@ -44,5 +45,7 @@ if (!empty($errors)) {
 } else {
     require 'send_mail.php';
 
-    echo sendHidroMail($name,$email,$subject,$message);
+    $_SESSION['contact_sended'] = sendHidroMail($name,$email,$subject,$message);
+
+    header('Location:http://localhost/proyectos/proyecto-hidronaval#contacto');
 }
