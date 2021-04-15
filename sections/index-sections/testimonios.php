@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div id="carousel" class="carousel mt-0 mb-4 slide" data-bs-ride="carousel">
+    <div id="carousel" class="d-none d-md-block carousel mt-0 mb-4 slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -15,7 +15,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="card mx-auto text-center">
-                    <img src="css\img\img-testimonials\recomend-3.jpg" class="card-img-top mx-auto mb-3" alt="...">
+                    <img src="css\img\img-testimonials\recomend-3.jpg" class="card-img-top mx-auto mb-3" alt="testimony-1">
                     <div class="card-body">
                         <h5 class="card-title">Alberto Sosa</h5>
                         <p class="card-text">"El curso me orientó en el mundo de la oleohidraulica. Les invito a todos a despejar sus dudas con estos cursos para una buena formacion técnica."</p>
@@ -24,7 +24,7 @@
             </div>
             <div class="carousel-item">
                 <div class="card mx-auto text-center">
-                    <img src="css\img\img-testimonials\recomend-2.jpg" class="card-img-top mx-auto mb-3" alt="...">
+                    <img src="css\img\img-testimonials\recomend-2.jpg" class="card-img-top mx-auto mb-3" alt="testimony-2">
                     <div class="card-body">
                         <h5 class="card-title">Fabian Quiroga</h5>
                         <p class="card-text">"Cursos excelentes en terminos técnicos, teoricos y prácticos, buenas expectativas en conocimiento personal en la salida laboral."</p>
@@ -33,7 +33,7 @@
             </div>
             <div class="carousel-item">
                 <div class="card mx-auto text-center">
-                    <img src="css\img\img-testimonials\recomend-1.jpg" class="card-img-top mx-auto mb-3" alt="...">
+                    <img src="css\img\img-testimonials\recomend-1.jpg" class="card-img-top mx-auto mb-3" alt="testimony-3">
                     <div class="card-body">
                         <h5 class="card-title">Pablo Germán Bertini</h5>
                         <p class="card-text">"Curso excelente dictado, con todas las normas de seguridad y tambien de calidad."</p>
@@ -54,4 +54,33 @@
             </button>
         </div>
     </div>
+
+    <!--Testimony-Alt-->
+
+<div class="testimony-alt-container card-container d-sm-block d-md-none mt-5">
+    <div class="card mx-auto my-3 text-center">
+        <img src="css\img\img-testimonials\recomend-3.jpg" class="card-img-top mx-auto" alt="testimony-1">
+        <div class="card-body">
+            <h5 class="card-title">Alberto Sosa</h5>
+            <p class="card-text">"El curso me orientó en el mundo de la oleohidraulica. Les invito a todos a despejar sus dudas con estos cursos para una buena formacion técnica."</p>
+        </div>
+    </div>
+
+    <div class="card mx-auto my-3 text-center">
+        <img src="css\img\img-testimonials\recomend-2.jpg" class="card-img-top mx-auto" alt="testimony-2">
+        <div class="card-body">
+            <h5 class="card-title">Fabian Quiroga</h5>
+            <p class="card-text">"Cursos excelentes en terminos técnicos, teoricos y prácticos, buenas expectativas en conocimiento personal en la salida laboral."</p>
+        </div>
+    </div>
+
+    <div class="card mx-auto my-3 text-center">
+        <img src="css\img\img-testimonials\recomend-1.jpg" class="card-img-top mx-auto" alt="testimony-3">
+        <div class="card-body">
+            <h5 class="card-title">Pablo Germán Bertini</h5>
+            <p class="card-text">"Curso excelente dictado, con todas las normas de seguridad y tambien de calidad."</p>
+        </div>
+    </div>
 </div>
+</div>
+
