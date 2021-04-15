@@ -5,8 +5,8 @@
                 <div class="col-12 col-md-12 col-lg-12 col-xl-7 p-5 write-us">
                     <h5 class="mb-5">Envíanos un mensaje</h5>
     
-                    <?php if (isset($_SESSION['contact_sended'])) {
-                        echo $_SESSION['contact_sended'];
+                    <?php if (isset($_SESSION['contact_return'])) {
+                        echo $_SESSION['contact_return'];
                     } ?>
                 
                     <form action="mail\mail_validations.php" method="POST" class="form-line">
@@ -14,7 +14,7 @@
                             <div class="col-md-12">
                                 <div class="position-relative">
                                     <label for="fullname" class="form-label">Nombre Completo</label>
-                                    <input type="text" class="input-effect" id="fullname" name="fullname">
+                                    <input type="text" class="input-effect" id="fullname" name="fullname" required>
                                     <div class="invalid-feedback">
                                         Please provide a valid city.
                                     </div>
@@ -26,14 +26,14 @@
                             <div class="col-md-6">
                                 <div class="position-relative">
                                     <label for="mail" class="form-label">Email</label>
-                                    <input type="email" class="input-effect" id="mail" name="mail">
+                                    <input type="email" class="input-effect" id="mail" name="mail" required>
                                     <span class="focus-border"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="position-relative">
                                     <label for="subject" class="form-label">Asunto</label>
-                                    <input type="text" class="input-effect" id="subject" name="subject">
+                                    <input type="text" class="input-effect" id="subject" name="subject" required>
                                     <span class="focus-border"></span>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                             <div class="col-md-12">
                                 <div class="position-relative">
                                     <label for="text-content" class="form-label">Mensaje</label>
-                                    <textarea class="form-control input-effect" name="text-content" id="text-content" rows="3"></textarea>
+                                    <textarea required class="form-control input-effect" name="text-content" id="text-content" rows="3"></textarea>
                                     <span class="focus-border"></span>
                                 </div>
                             </div>

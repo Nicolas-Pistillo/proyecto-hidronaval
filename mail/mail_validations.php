@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+// BEGIN VALIDATIONS
+
 $name = $_POST['fullname'];
 $email = $_POST['mail'];
 $subject = $_POST['subject'];
@@ -40,12 +42,20 @@ if (isset($message)) {
     $errors.= 'Se debe especificar un mensaje para su consulta'.'<br>';
 }
 
+// END VALIDATIONS
+
 if (!empty($errors)) {
-    echo $errors;
+
+    $_SESSION['contact_return'] = "<div class='alert alert-danger mb-3' role='alert'>
+                                        $errors
+                                    </div>";
+
+    header('Location:http://localhost/proyectos/proyecto-hidronaval#contacto');
+
 } else {
     require 'send_mail.php';
 
-    $_SESSION['contact_sended'] = sendHidroMail($name,$email,$subject,$message);
+    $_SESSION['contact_return'] = sendHidroMail($name,$email,$subject,$message);
 
     header('Location:http://localhost/proyectos/proyecto-hidronaval#contacto');
 }
