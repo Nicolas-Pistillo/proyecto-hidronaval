@@ -47,13 +47,11 @@
     </div>
     <div class="sub-footer container-fluid  text-center py-4 m-0">
         <div class="container row align-items-center justify-content-between m-auto p-0">
-            <div class="col-12 col-sm-6 tex-center text-sm-start">
-                <small class="small">Copyright © 2021 Hidronaval - Todos los derechos  reservados</small>
+            <div class="col-12 col-sm-6 tex-center text-sm-start text-nowrap">
+                <small class="small">Copyright © 2021 Hidronaval - Todos los derechos  reservados</small> 
             </div>
             <div class="col-12 col-sm-6 tex-center text-sm-end">
-                <small class="small">
-                Desarrollado por Lorem Ipsum, Lorem Ipsum y Lorem Ipsum.
-                </small>
+            <a href="https://github.com/Nicolas-Pistillo"><i class="fab fa-github fa-lg"></i></a> <small class="small">&#8226;</small>  <a href="https://github.com/santi-san"><i class="fab fa-github fa-lg"></i></a>  <small class="small">&#8226;</small>  <a href="https://github.com/gmsanchezgaray"><i class="fab fa-github fa-lg"></i></a>
             </div>
         </div>
     </div>

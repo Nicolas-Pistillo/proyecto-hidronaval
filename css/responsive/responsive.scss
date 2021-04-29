@@ -1,4 +1,14 @@
 @media (max-width:545px) {
+    .header-container{
+        height: 600px !important;
+        clip-path: none;
+    }
+    .h-80{
+        height: calc( 100% - 86px);
+    }
+    .bg-instructor{
+        background: linear-gradient(0deg, #092828c7 0%, #004555 43.7%, #fff 40%, #fff 100%),url("../img/page-img/pattern.jpg") !important;
+    }
     .hidro-cards {
         position: static !important;
     }
@@ -11,6 +21,9 @@
 }
 
 @media (min-width:546px) and (max-width:990px) {
+    .bg-instructor{
+        background: linear-gradient(0deg, #092828c7 0%, #004555 42%, #fff 40%, #fff 100%),url("../img/page-img/pattern.jpg") !important;
+    }
     #nosotros {
         padding-top: 16rem !important;
     }
