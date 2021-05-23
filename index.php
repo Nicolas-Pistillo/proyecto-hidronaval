@@ -63,9 +63,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="sesion btn rounded-3">Iniciar Sesion</a>
-                    </li>
                 </ul>
             </div>
         </div><!--FIN DIV CONTAINER-->
@@ -74,17 +71,8 @@
         <div class="row align-items-center h-80">
             <div class="col-sm-12 col-md-8 col-lg-6 text-center text-md-start">
                 <h1>Cursos de <br>Oleohidraulica Naval</h1>
-                <p>Hemos diseñado cursos de Oleohidráulica. Si quieres conocer más sobre Olehidráulica, te ofrecemos una
-                    Introducción <b>GRATIS</b>.</p>
-                <form>
-                    <div class="input-group mb-3">
-                        <!--<label class="visually-hidden" for="email">email</label> Label asociado al input pero al habilitarlo quita el borde redondeado de la izquierda-->
-                        <input type="email" name="email" class="email-info form-control" placeholder="Introduce tu correo electronico" aria-describedby="box-send">
-                        <span class="input-group-text" id="box-send">
-                            <input class="send-email" type="submit" value="Solicitar Curso">
-                        </span>
-                    </div>
-                </form>
+                <p>Hemos diseñado cursos de Oleohidráulica para capacitar a los futuros profesionales de la rama técnica mas demandada del mercado laboral</p> <br>
+                <a href="#cursos" class="btn hidro-buttons">Ver cursos</a>
             </div>
         </div>
     </div>
