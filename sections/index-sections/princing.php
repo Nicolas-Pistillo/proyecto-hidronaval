@@ -82,7 +82,7 @@
                     <sup>$</sup>94
                     <span>/al mes</span>
                 </h1>
-                <button class="btn hidro-buttons mt-3">Comprar</button>
+                <em>Próximamente</em>
                 <a href="#" class="btn mt-2">Ver programa</a>
             </div>
         </div>
@@ -169,7 +169,7 @@
                     <sup>$</sup>94
                     <span>/al mes</span>
                 </h1>
-                <button class="btn hidro-buttons mt-3">Comprar</button>
+                <em>Próximamente</em>
                 <a href="#" class="btn mt-2">Ver programa</a>
             </div>
         </div>
@@ -251,7 +251,7 @@
                     <sup>$</sup>94
                     <span>/al mes</span>
                 </h1>
-                <button class="btn hidro-buttons mt-3">Comprar</button>
+                <em>Próximamente</em>
                 <a href="#" class="btn mt-2">Ver programa</a>
             </div>
         </div>

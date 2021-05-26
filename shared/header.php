@@ -16,5 +16,6 @@ header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css\responsive\responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="css/img/apple-touch-icon.png" type="image/x-icon">
 </head>
 <body>
