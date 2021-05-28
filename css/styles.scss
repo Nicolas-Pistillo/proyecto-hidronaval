@@ -190,26 +190,17 @@ body {
   color: $color-light;
   .main-nav {
     background-color: transparent;
-    color: #f0f0f0;
+    color: #fff;
     .collapse .navbar-nav .nav-item {
       padding: 0 8px;
       text-transform: uppercase;
       letter-spacing: 1px;
-      .sesion {
-        color: #f0f0f0;
-        transition: all 0.3s;
-        background-color: $color-primary;
-        &:hover {
-          background-color: $color-primary-hover;
-          color: $color-light;
-        }
-      }
-      
       .nav-link {
+        color: #fff;
         transition: all .3s;
         &:hover {
           transform: scale(1.1, 1.1);
-          color: $color-light;
+          color: $color-primary;
         }
       }
     }
@@ -310,6 +301,9 @@ main {
         color: $info;
         font-size: 16px;
         font-family: $font-family-secondary;
+        li > strong {
+          color: $color-primary !important;
+        }
       }
     }
 

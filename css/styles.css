@@ -215,7 +215,7 @@ body {
 
 .header-container .main-nav {
   background-color: transparent;
-  color: #f0f0f0;
+  color: #fff;
 }
 
 .header-container .main-nav .collapse .navbar-nav .nav-item {
@@ -224,19 +224,8 @@ body {
   letter-spacing: 1px;
 }
 
-.header-container .main-nav .collapse .navbar-nav .nav-item .sesion {
-  color: #f0f0f0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  background-color: #F98131;
-}
-
-.header-container .main-nav .collapse .navbar-nav .nav-item .sesion:hover {
-  background-color: #ff6803;
-  color: #fff;
-}
-
 .header-container .main-nav .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -244,7 +233,7 @@ body {
 .header-container .main-nav .collapse .navbar-nav .nav-item .nav-link:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
-  color: #fff;
+  color: #F98131;
 }
 
 .header-container form div .email-info {
@@ -348,6 +337,10 @@ main .skills .skills-info .tab-info {
   color: #555D62;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+}
+
+main .skills .skills-info .tab-info li > strong {
+  color: #F98131 !important;
 }
 
 main .skills .skills-buttons .row button {
