@@ -8,50 +8,40 @@ const dataUl = [
     {
         title: 'Animate a desarrollar nuevas habilidades',
         data: `
-        <li>Aprenderas muchas habilidades dentro del curso relacionadas con el aprendizaje tecnico de Oleohidraulica naval</li>
-        <li>Trabajaras en habilidades unicas y demandadas dentro del sector</li>
-        <li>Elementos de lista de prueba en tab "Habilidades"</li>
+        <li>Aprenderás <strong>muchas habilidades</strong> dentro del curso relacionadas con el aprendizaje tecnico en Oleohidraulica naval, tales como: gesto profesional, correcto empleo de los E.P.P, generación de O.T y plan de trabajo</li>
+
+        <li>Modalidad de trabajo para <strong>astilleros</strong> y reglamentaciónes vigentes</li>
     `
     },
     {
         title: 'Somos expertos en Oleohidraulica Naval',
         data: `
-        <li>Conoceras los principios físicos que rigen las aplicaciones hidráulicas complementándolos con el conocimiento sobre fluidos.</li>
+        <li>Conocer los principios físicos que rigen las aplicaciones hidráulicas complementándolos con los conocimientos sobre los fluidos.</li>
 
-        <li>Distinguiras la estructura básica de una <strong>centralina hidráulica</strong>, diferenciando entre los diferentes tipos de bombas a instalar y los accesorios que esta pueda presentar.</li>
+        <li>Distinguir la estructura básica de una <strong>centralina hidráulica</strong>, adecuar los <strong>componentes</strong> para su correcto funcionamiento tales como: tipo de bomba, válvulas, actuadores y más.</li>
 
-        <li>Aprenderas a manejar los actuadores más comunes de las aplicaciones hidráulicas (desarrollando tanto función como cálculo).</li>
+        <li>Comprender el trabajo específico de los circuitos para poder <strong>diagnosticar una falla</strong>.</li>
+
+        <li>Interpretación de planos/gráficos de circuitos.</li>
     `
     },
     {
         title: 'Demostrá todo lo que aprendiste',
         data: `
-        <li>Recibiras un certificado avalado por diferentes entidades del area naval</li>
-        <li>Demostraras tu asistencia y compromiso con la capacitacion que conlleva ser Técnico Oleohidraulico</li>
-        <li>Elementos de lista de prueba en tab "Certificacion"</li>
+        <li>Recibiras un <strong>certificado</strong> avalado por prestigiosos entes del area naval como ser SICONARA, CONARA, SAONSINRA, SAON (Conductores navales y obreros navales)</li>
+
+        <li>Basado en <strong>competencias</strong>: Este curso fue avalado por el Ministerio de transporte y seguridad social (MTE y SS) en el año 2015 con su numero de regise bajo la plataforma de Siconara Capacitación</li>
     `
     },
     {
-        title: 'Tus conocimientos son nuestro objetivo',
+        title: 'Tu aprendizaje es nuestro objetivo',
         data: `
-        <li>Nuestro objetivo es expandir los conocimientos del area de Oleohidraulica Naval para capacitar a los futuros técnicos que decidan desarrollarse en la misma</li>
-        <li>Contamos con el apoyo de diferentes recursos que nos garantizan tu correcto aprendizaje en la materia</li>
-        <li>Elementos de lista de prueba en tab "Objetivos"</li>
+        <li>Nuestro objetivo es expandir los conocimientos del area de Oleohidraulica Naval a futuros personales técnicos <strong>a bordo</strong></li>
+
+        <li>Contamos con recursos y herramientas que nos garantizan tu correcto <strong>aprendizaje</strong></li>
     `
     }
 ]
-
-/* DATA CHANGE - Se recorren los botones almacenados en la variable tabButtons y se les asigna el escuchador de eventos "click", al ocurrir esto sucede lo siguiente:
-
-1 - Llamado a la funcion resetBtnActive() - se vuelven a recorrer todos los botones para removerles la clase "btn-tab-active", la cual agrega los estilos correspondientes al boton luego de hacerle click
-
-2 - Se le vuelve a agregar la clase "btn-tab-active" solo al boton al que se le halla dado click, suena a un toggle, pero ya lo probe y no tiene sentido esa funcionalidad ya que el evento sucederia de manera intercalada, osea la primera vez funcionara y la segunda no, independientemente del boton. Y esto no es lo que buscamos claramente
-
-3 - Llamado a la funcion resetAnimation() - Similar a lo que sucede con la clase "btn-tab-active". Esta vez se le agrega a la ul la clase que llama a la animacion de movimiento del contenido, la diferencia es que aca no funcionara la animacion si primero la removemos y despues la colocamos nuevamente, porque para ese entonces, el contenido de la ul ya estara disponible en el DOM y no toma accion la animacion, por lo que le agrege un setTimeOut(900ms) que remueve automaticamente la clase de la animacion luego de hacer click en cualquier boton
-
-4 - Llamado a la funcion changeData() - Esta es la funcion mas importante diria yo xd. Aca es donde se modifica el innerHTML de la ul por el contenido guardado en la propiedad "data" de los objetos guardados en la variable dataUl, pasandole como parametro el indice que le corresponde al boton dado click en cuestion, por ejemplo si se le dio click al boton Nº3 "Certificacion", se le va a pasar el indice 3 al array de objetos de dataUl, el cual contiene la data respectiva de esa seccion, y simplemente se le agrega a la Ul como su nuevo contenido con innerHTML. 
-
-*/
 
 tabButtons.forEach((e,indexBtn) => {
     e.addEventListener('click',() => {

@@ -3,11 +3,13 @@
         <h2 class="mb-4 tab-title animate__animated">Somos expertos en Oleohidraulica Naval</h2>
         
         <ul class="tab-info animate__animated">
-            <li>Conocer los principios físicos que rigen las aplicaciones hidráulicas complementándolos con el conocimiento sobre fluidos.</li>
+            <li>Conocer los principios físicos que rigen las aplicaciones hidráulicas complementándolos con los conocimientos sobre los fluidos.</li>
 
-            <li>Distinguir la estructura básica de una <strong>centralina hidráulica</strong>, diferenciando entre los diferentes tipos de bombas a instalar y los accesorios que esta pueda presentar.</li>
+            <li>Distinguir la estructura básica de una <strong>centralina hidráulica</strong>, adecuar los <strong>componentes</strong> para su correcto funcionamiento tales como: tipo de bomba, válvulas, actuadores y más.</li>
 
-            <li>Manejar los actuadores más comunes de las aplicaciones hidráulicas (desarrollando tanto función como cálculo).</li>
+            <li>Comprender el trabajo específico de los circuitos para poder <strong>diagnosticar una falla</strong>.</li>
+
+            <li>Interpretación de planos/gráficos de circuitos.</li>
         </ul>
 
     </div>

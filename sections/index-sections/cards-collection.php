@@ -11,7 +11,7 @@
             <img src="css\img\img-cards-collection\certificacion-card.svg" alt="certificacion-img">
             <div class="card-body">
                 <h5 class="card-title">Certificación</h5>
-                <p class="card-text">Certificado de finalización avalado por SAON y SICONARA.</p>
+                <p class="card-text">Avalado y respaldado por: Mte y SS, Siconara, Conara, Saonsinra y SAON.</p>
             </div>
         </div>
         <div class="card">
