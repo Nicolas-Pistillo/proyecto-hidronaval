@@ -50,12 +50,12 @@ if (!empty($errors)) {
                                         $errors
                                     </div>";
 
-    header('Location:http://'. $_SERVER['REMOTE_ADDR'] . '/proyecto-hidronaval/#contacto');
+    header('Location:http://'. $_SERVER['SERVER_NAME'] . '/proyecto-hidronaval/#contacto');
 
 } else {
     require 'send_mail.php';
 
     $_SESSION['contact_return'] = sendHidroMail($name,$email,$subject,$message);
 
-    header('Location:http://'. $_SERVER['REMOTE_ADDR'] . '/proyecto-hidronaval/#contacto');
+    header('Location:http://'. $_SERVER['SERVER_NAME'] . '/proyecto-hidronaval/#contacto');
 }

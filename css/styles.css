@@ -4,6 +4,26 @@
   padding-bottom: 6rem !important;
 }
 
+.h-orange {
+  color: #F98131;
+}
+
+.h-orange-2 {
+  color: #ff6803;
+}
+
+.h-blue {
+  color: #1E5799;
+}
+
+.h-blue-2 {
+  color: #658CBA;
+}
+
+.open-s {
+  font-family: "Open Sans", sans-serif !important;
+}
+
 .decorators {
   text-transform: uppercase;
   display: inline-block;
@@ -233,7 +253,6 @@ body {
 .header-container .main-nav .collapse .navbar-nav .nav-item .nav-link:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
-  color: #F98131;
 }
 
 .header-container form div .email-info {

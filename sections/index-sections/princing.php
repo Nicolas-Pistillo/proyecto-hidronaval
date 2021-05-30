@@ -38,7 +38,7 @@
                     </svg>
 
                     <div class="mb-md-2">
-                        <p class="my-0">Duración: 120h.</p>
+                        <p class="my-0">Duración: 50hs</p>
                         <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
                     </div>
                 </li>
@@ -79,11 +79,10 @@
             </ul>
             <div class="d-flex flex-column align-items-center my-3 detail-price">
                 <h1 class=" text-center">
-                    <sup>$</sup>94
-                    <span>/al mes</span>
+                    <sup class="fs-6 me-1">$USD</sup>50
                 </h1>
                 <em>Próximamente</em>
-                <a href="#" class="btn mt-2">Ver programa</a>
+                <a href="pdf/Programa-inicial.pdf" target="_blank" class="btn mt-2">Ver programa</a>
             </div>
         </div>
         <!--//? Second Card-->
@@ -97,8 +96,8 @@
                     </span>
                 </div>
                 <div class="pricing-card-titles">
-                    <h4 class="card-title text-center">Curso Completo</h4>
-                    <p class="card-text text-center">Sin conocimientos previos</p>
+                    <h4 class="card-title text-center">Curso Definitivo</h4>
+                    <p class="card-text text-center p-2">Conocimientos de cálculos y conceptos básicos de Oleohidraulica</p>
                 </div>
             </div>
             <ul class="list-item-card d-flex flex-column mx-3 p-0">
@@ -125,7 +124,7 @@
                     </svg>
 
                     <div class="mb-md-2">
-                        <p class="my-0">Duración: 120h.</p>
+                        <p class="my-0">Duración: 100hs</p>
                         <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
                     </div>
                 </li>
@@ -166,11 +165,10 @@
             </ul>
             <div class="d-flex flex-column align-items-center my-3 detail-price">
                 <h1 class=" text-center">
-                    <sup>$</sup>94
-                    <span>/al mes</span>
+                    <sup class="fs-6 me-1">$USD</sup>100
                 </h1>
                 <em>Próximamente</em>
-                <a href="#" class="btn mt-2">Ver programa</a>
+                <a href="pdf/Programa-avanzado.pdf" target="_blank" class="btn mt-2">Ver programa</a>
             </div>
         </div>
         <!--//? Thirst Card-->
@@ -207,7 +205,7 @@
                     </svg>
 
                     <div class="mb-md-2">
-                        <p class="my-0">Duración: 120h.</p>
+                        <p class="my-0">Duración: 150hs</p>
                         <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
                     </div>
                 </li>
@@ -248,12 +246,18 @@
             </ul>
             <div class="d-flex flex-column align-items-center my-3 detail-price">
                 <h1 class=" text-center">
-                    <sup>$</sup>94
-                    <span>/al mes</span>
+                    <sup class="fs-6 me-1">$USD</sup>140
                 </h1>
                 <em>Próximamente</em>
-                <a href="#" class="btn mt-2">Ver programa</a>
+                <a href="pdf/Programa-avanzado.pdf" target="_blank" class="btn mt-2">Ver programa</a>
             </div>
         </div>
+    </div>
+    <div class="text-center open-s fs-5">
+            <div class="advisory-titles d-flex justify-content-center align-items-center">
+                <span class="material-icons h-blue-2 me-1">label_important</span>
+                <span class="h-orange-2 me-1">PRÓXIMAMENTE</span>
+            </div>
+            <p>se abrira inscripción con cupos limitados, no dudes en contactarte con nosotros para pedir asesoramiento</p>
     </div>
 </div>
