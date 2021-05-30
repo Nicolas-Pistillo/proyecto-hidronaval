@@ -19,6 +19,30 @@ $radius: 8px;
   padding-bottom: 6rem !important;
 } 
 
+// Hidro-colors
+
+.h-orange {
+  color: $color-primary;
+}
+
+.h-orange-2 {
+  color: $color-primary-hover;
+}
+
+.h-blue {
+  color: #1E5799;
+}
+
+.h-blue-2 {
+  color: #658CBA;
+}
+
+// Font 2 
+
+.open-s {
+  font-family: $font-family-secondary !important;
+}
+
 //? Little subtitle light blue
 .decorators {
     text-transform: uppercase;
@@ -200,7 +224,6 @@ body {
         transition: all .3s;
         &:hover {
           transform: scale(1.1, 1.1);
-          color: $color-primary;
         }
       }
     }
