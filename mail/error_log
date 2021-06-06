@@ -4,3 +4,6 @@
 [06-Jun-2021 19:12:43 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6
 [06-Jun-2021 19:12:43 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6
 [06-Jun-2021 19:12:43 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6
+[06-Jun-2021 19:26:14 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6
+[06-Jun-2021 19:26:14 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6
+[06-Jun-2021 19:26:14 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/jhukmbdu/public_html/proyecto-hidronaval/mail/send_mail.php on line 6

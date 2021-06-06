@@ -39,7 +39,6 @@
 
                     <div class="mb-md-2">
                         <p class="my-0">Duración: 50hs</p>
-                        <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
                     </div>
                 </li>
 
@@ -124,8 +123,7 @@
                     </svg>
 
                     <div class="mb-md-2">
-                        <p class="my-0">Duración: 100hs</p>
-                        <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
+                        <p class="my-0">Duración: 100hs</p
                     </div>
                 </li>
 
@@ -206,7 +204,6 @@
 
                     <div class="mb-md-2">
                         <p class="my-0">Duración: 150hs</p>
-                        <p class="small text-muted my-0">Tendrás 6 meses para realizarlo</p>
                     </div>
                 </li>
 
