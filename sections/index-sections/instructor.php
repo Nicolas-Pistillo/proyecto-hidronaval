@@ -17,7 +17,7 @@
                     <h3 class="fs-2">Dario Omar Pistillo</h3>
                     <ul class="text-start text-md-center text-lg-start p-0">
                         <li>Instructor de oleohidraulica naval desde 2014</li>
-                        <li>Técnico oleohidraulico desde hace 26 años y trabajando en areas tanto industrial, como vial y naval</li>
+                        <li>Tecnico oleohidraulico desde 1995 trabajando en area naval, industrial y vial</li>
                         <li>Actualmente en actividad con 26 años ininterrumpidos de servicio</li>
                     </ul>
                     <button type="button" class="btn hidro-buttons show-lightx">Ver Trabajos</button>

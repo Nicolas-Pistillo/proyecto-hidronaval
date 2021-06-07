@@ -3,6 +3,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '../vendor/phpmailer/phpmailer/src/Exception.php';
+
 require '../vendor/autoload.php';
 
 function sendHidroMail($name,$email,$subject,$message) {
@@ -12,10 +16,10 @@ function sendHidroMail($name,$email,$subject,$message) {
         $mail->isSMTP();
         //$mail->SMTPDebug = 2; To debug
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'tls';
-        $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 587;
-        $mail->Username = 'contacto.hidronaval@gmail.com';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Host = 'mail.hidronaval.com';
+        $mail->Port = 465;
+        $mail->Username = 'contacto@hidronaval.com';
         $mail->Password = 'hidroneumatica';
         /*$mail->setFrom('contacto.hidronaval@gmail.com', 'Hidronaval-Contacto');
         $mail->addAddress($email, $name);*/
@@ -26,7 +30,7 @@ function sendHidroMail($name,$email,$subject,$message) {
     
         $mail->From = $email;
         $mail->FromName = $name;
-        $mail->addAddress($mail->Username,'Hidronaval-Contacto');
+        $mail->addAddress('contacto.hidronaval@gmail.com','Hidronaval-Contacto');
         $mail->Subject = $subject;
         $mail->Body = $message . " <p>Correo del usuario: $email</p>";
         $mail->AltBody = $message . " Correo del usuario: $email";
@@ -44,6 +48,6 @@ function sendHidroMail($name,$email,$subject,$message) {
         return $msg;
 
     } catch (Exception $e) {
-        return  "Error al enviar el correo, info del error: {$mail->ErrorInfo}";
+        return  "Error al enviar el correo, por favor intentelo de nuevo mas tarde";
     }
 }
