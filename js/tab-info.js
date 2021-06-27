@@ -28,7 +28,7 @@ const dataUl = [
     {
         title: 'Demostrá todo lo que aprendiste',
         data: `
-        <li>Recibiras un <strong>certificado</strong> avalado por prestigiosos entes del area naval como ser SICONARA, CONARA, SAONSINRA, SAON (Conductores navales y obreros navales)</li>
+        <li>Recibiras un <strong>certificado</strong> avalado por prestigiosos entes del area naval como ser SICONARA, SAONSINRA, SAON (Conductores navales y obreros navales)</li>
 
         <li>Basado en <strong>competencias</strong>: Este curso fue avalado por el Ministerio de trabajo, empleo y seguridad 
 social 

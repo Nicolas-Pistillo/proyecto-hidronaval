@@ -1,7 +1,9 @@
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+
 
 require '../vendor/autoload.php';
 
@@ -12,21 +14,20 @@ function sendHidroMail($name,$email,$subject,$message) {
         $mail->isSMTP();
         //$mail->SMTPDebug = 2; To debug
         $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'tls';
-        $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 587;
-        $mail->Username = 'contacto.hidronaval@gmail.com';
+        $mail->SMTPSecure = 'ssl';
+        $mail->Host = 'mail.hidronaval.com';
+        $mail->Port = 465;
+        $mail->Username = 'contacto@hidronaval.com';
         $mail->Password = 'hidroneumatica';
-        /*$mail->setFrom('contacto.hidronaval@gmail.com', 'Hidronaval-Contacto');
-        $mail->addAddress($email, $name);*/
         $mail->CharSet = 'utf-8';
         $mail->isHTML();
 
         $msg = '';
     
-        $mail->From = $email;
-        $mail->FromName = $name;
-        $mail->addAddress($mail->Username,'Hidronaval-Contacto');
+        
+	$mail->setFrom($email,$name);
+        $mail->addAddress('contacto.hidronaval@gmail.com','Hidronaval-Contacto');
+
         $mail->Subject = $subject;
         $mail->Body = $message . " <p>Correo del usuario: $email</p>";
         $mail->AltBody = $message . " Correo del usuario: $email";
